@@ -13,7 +13,10 @@ contract CounterScript is Script {
         vm.startBroadcast();
 
         counter = new Counter();
+        uint256 foo = counter.foo();
 
         vm.stopBroadcast();
+
+        console.log(foo);
     }
 }
