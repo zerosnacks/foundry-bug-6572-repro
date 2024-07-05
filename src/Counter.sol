@@ -15,11 +15,11 @@ contract Counter {
         number++;
     }
 
-    function foo() returns (uint256) {
+    function foo() public pure returns (uint256) {
         return FOO;
     }
 
-    function barErr() {
+    function barErr() public pure {
         revert Bar();
     }
 }
