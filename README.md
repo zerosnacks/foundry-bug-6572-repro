@@ -8,7 +8,7 @@ Unable to reproduce bug with instructions:
 
 >Running forge script in a repo that has a dependency with .sol files that don't contain a contract (e.g. the file contains only error definitions or constants) results in an error like
 
-See `Counter.sol` inherits from `lib/foundry-bug-6572-repro-lib` that was installed with `zerosnacks/foundry-bug-6572-repro-lib`
+See `Counter.sol` inherits from `lib/foundry-bug-6572-repro-lib` that was installed with `zerosnacks/foundry-bug-6572-repro-lib` (see: https://github.com/zerosnacks/foundry-bug-6572-repro-lib/tree/master/src)
 
 Running `Counter.s.sol` yields:
 
